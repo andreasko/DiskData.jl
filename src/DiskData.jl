@@ -2,7 +2,7 @@ module DiskData
 
 using Lazy
 
-typealias AVector AbstractVector
+const AVector = AbstractVector
 
 include("iter/iter.jl")
 include("iter/split.jl")
